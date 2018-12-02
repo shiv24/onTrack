@@ -14,7 +14,7 @@ export default class NavBar extends Component {
 						<Label>Inventory Management System - Supplier</Label>
 					</Col>
 					<Col md={6}>
-						<Button bsStyle="primary" bsSize="small" className="pull-right" onClick={() => onAddClick()}>Add</Button>
+						<Button bsStyle="primary" className="pull-right" onClick={() => onAddClick()}>New Record</Button>
 					</Col>
 				</Row>
 		)
