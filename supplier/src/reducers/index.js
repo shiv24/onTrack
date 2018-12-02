@@ -11,6 +11,7 @@ const reducer = (state = initialState, action) => {
 				{
 					id: state.reduce((maxId, inventory) => Math.max(inventory.id, maxId), -1) + 1,
 					category: action.category,
+					productCode: action.productCode,
 					name: action.name,
 					price: action.price,
 					stocked: true
@@ -22,6 +23,7 @@ const reducer = (state = initialState, action) => {
 					return {
 						id: action.id,
 						category: action.category,
+						productCode: action.productCode,
 						name: action.name,
 						price: action.price,
 						stocked: true
