@@ -33,12 +33,12 @@ export default class InventoryForm extends Component {
 	 	e.preventDefault()
 	 	const { editInventory, addInventory } = this.props.actions
 	 	const { navigateToHome } = this.props
-	 	if(this.state.productCode) {
+	 	if(this.state.id) {
 	 		editInventory(this.state)
 	 	} else {
 	 		addInventory(this.state)
 	 	}
-	 	alert('Inventory details saved successfully');
+	 	// alert('Inventory details saved successfully');
 	 	navigateToHome()
 	 	return false
 	 }
