@@ -10,11 +10,8 @@ export default class Inventory extends Component {
 		        <td>{name}</td>
 		        <td>{price}</td>
 		        <td>{category}</td>
-		        <th>
-		        	<Button bsStyle="link" onClick={() => onEdit(id) }>Edit</Button>
-		        	&nbsp;&nbsp;
-		        	<Button bsStyle="link" onClick={() => onDelete(id) }>Delete</Button>
-		        </th>
+		        <td><Button bsStyle="info" onClick={() => onEdit(id) }>Edit</Button></td>
+		        <td><Button bsStyle="danger" onClick={() => onDelete(id) }>Delete</Button></td>
 		    </tr>
 		);
 	}

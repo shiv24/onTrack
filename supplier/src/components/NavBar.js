@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Row, Col, Button} from 'react-bootstrap'
+import { Row, Col, Button, Label} from 'react-bootstrap'
 
 export default class NavBar extends Component {
 	render() {
@@ -10,7 +10,10 @@ export default class NavBar extends Component {
 		}
 		return (
 				<Row className="show-grid" style={style}>
-					<Col md={12}>
+					<Col md={6}>
+						<Label>Inventory Management System - Supplier</Label>
+					</Col>
+					<Col md={6}>
 						<Button bsStyle="primary" bsSize="small" className="pull-right" onClick={() => onAddClick()}>Add</Button>
 					</Col>
 				</Row>

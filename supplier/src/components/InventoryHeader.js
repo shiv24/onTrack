@@ -13,7 +13,8 @@ export default class InventoryHeader extends Component {
 		        <th style={inlineStyle}>Name</th>
 		        <th style={inlineStyle}>Price</th>
 		        <th style={inlineStyle}>Category</th>
-		        <th style={inlineStyle}>Action</th>
+		        <th style={inlineStyle}>Edit</th>
+		        <th style={inlineStyle}>Delete</th>
 		      </tr>
 		    </thead>
 		)
