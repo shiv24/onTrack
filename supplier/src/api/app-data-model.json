@@ -1,0 +1,66 @@
+{
+	"inventoryList": [{
+		"id": 1,
+		"productCode": 1234,
+		"category": "Sporting Goods",
+		"price": 49.99,
+		"stocked": true,
+		"name": "Football"
+	}, {
+		"id": 2,
+		"productCode": 1235,
+		"category": "Sporting Goods",
+		"price": 9.99,
+		"stocked": true,
+		"name": "Baseball"
+	}, {
+		"id": 3,
+		"productCode": 1236,
+		"category": "Sporting Goods",
+		"price": 29.99,
+		"stocked": false,
+		"name": "Basketball"
+	}, {
+		"id": 4,
+		"productCode": 1237,
+		"category": "Electronics",
+		"price": 99.99,
+		"stocked": true,
+		"name": "iPod Touch"
+	}, {
+		"id": 5,
+		"productCode": 1238,
+		"category": "Electronics",
+		"price":399.99,
+		"stocked": false,
+		"name": "iPhone 5"
+	}, {
+		"id": 6,
+		"productCode": 1239,
+		"category": "Electronics",
+		"price": 199.99,
+		"stocked": true,
+		"name": "Nexus 7"
+	}, {
+		"id": 7,
+		"productCode": 1240,
+		"category": "Bikes",
+		"price": 299.99,
+		"stocked": true,
+		"name": "Mountain"
+	}, {
+		"id": 8,
+		"productCode": 1241,
+		"category": "Bikes",
+		"price": 1099.99,
+		"stocked": true,
+		"name": "Road"
+	}, {
+		"id": 9,
+		"productCode": 1242,
+		"category": "Bikes",
+		"price": 1199.99,
+		"stocked": true,
+		"name": "BMX"
+	}]
+}
